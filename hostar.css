@@ -1,0 +1,132 @@
+*{
+    margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins",sans sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(46, 122, 139);
+    align-items: center;
+    background: url(hostar.jpg) no-repeat; ;
+background-size: cover;
+background-position: center;
+backdrop-filter: blur(5px);
+
+ 
+    }
+    .refer{
+    width: 420px;
+    background:transparent;
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+    }
+    
+    .refer h1{
+    font-size: 36px;
+    text-align: center;
+    
+    }
+    
+    .refer .input-box{
+        position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+    }
+    
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 45px 20px 20px;
+        }
+        .input-box input::placeholder{
+            color:#088cf2;
+
+        }
+        .input-box i{
+            position: absolute;
+right: 20px;
+top: 30%;
+transform: translate(-50%);
+font-size: 20px;
+        }
+        .input-box input:hover{
+            height: 110%;
+            font-size: 16px;
+        }
+
+        .refer .remember-forgot{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+
+        }
+        
+
+        .remember-forgot label input{
+            accent-color: rgb(27, 135, 41);
+            margin: 3px;
+        }
+
+
+        .remember-forgot a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .remember-forgot a:hover{
+
+            text-decoration: underline;
+
+        }
+
+        .refer .btn{
+width: 100%;
+height: 45px;
+background: rgb(12, 141, 240);
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgb(76, 103, 252);
+cursor: pointer;
+font-size: 16px;
+color: #050505;
+font-weight: 600;
+        }
+        .refer .btn:hover{
+          
+            background: rgb(1, 25, 144);
+            color: rgb(6, 140, 250);
+        }
+        
+.refer .register-link{
+font-size: 14.5px;
+text-align: center;
+margin: 20px 0 15px;
+color: rgb(25, 107, 222);
+
+
+}
+
+.register-link p a:hover{
+text-decoration: underline;
+color: rgb(214, 148, 54);
+}
+
+#button:hover{
+    color: red;
+}
